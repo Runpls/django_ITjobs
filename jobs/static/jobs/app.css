@@ -1,0 +1,24 @@
+	.navbar-brand {
+	  font-family: 'Peralta', cursive;
+	}
+	.card-job:hover {
+	  transform: scale(1.02);
+	  border: 1px solid #e5e5e5 !important;
+	  background-color: lemonchiffon  !important;
+	}
+
+	.pagination li {
+	  display: inline-block;
+	}
+
+	.form-control:focus {
+	    outline: 0 !important;
+	    border-color: initial;
+	    box-shadow: none;
+	}
+	.job-count {
+	    font-size: 30px;
+	    padding-left: 1rem;
+	    font-family: "Roboto Condensed", sans-serif;
+	    margin-bottom: -40px;
+	}

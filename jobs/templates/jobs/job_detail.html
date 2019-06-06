@@ -1,0 +1,12 @@
+{% extends 'jobs/base.html' %}
+{% block title %}{{ job.title }}{% endblock %}
+{% block content %}
+  <div class="card">
+    <div class="card-header">
+       <h5>{{ job.title }}</h5>
+    </div>
+    <div class="card-body">
+      {{ job.get_description_as_markdown }}
+    </div>      
+  </div>
+{% endblock %}
