@@ -1,0 +1,1 @@
+web: gunicorn getjobs.wsgi --log-file -
