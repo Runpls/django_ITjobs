@@ -20,8 +20,7 @@ class Job(models.Model):
     description = models.TextField()
 
     class Meta:
-        managed = False
-        db_table = 'Job'
+        db_table = 'job'
         ordering = ('-sequence', )
 
     def __str__(self):
